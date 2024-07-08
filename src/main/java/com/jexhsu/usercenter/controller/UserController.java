@@ -25,6 +25,7 @@ import static com.jexhsu.usercenter.contant.UserConstant.USER_LOGIN_STATE;
  */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin(origins = "http://localhost:8000")
 public class UserController {
 
     @Resource
